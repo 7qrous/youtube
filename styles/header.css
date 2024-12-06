@@ -87,7 +87,7 @@ header {
 #point3-icon {
     width: 20px;
     height: 20px;
-    margin-right:20px;
+    margin-right: 20px;
     background-image: url('../images/point3.png');
     background-size: cover;
 }
@@ -101,6 +101,8 @@ header {
     display: flex;
     align-items: center;
     text-align: center;
+    text-decoration: none;
+    color: black;
 }
 
 #login-icon {

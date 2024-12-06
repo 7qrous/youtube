@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="icon" type="image/x-icon" href="../images/youtube.ico">
+    <link rel="stylesheet" href="styles/main.css" />
+</head>
+
+<body>
+    <div id="root">
+        <header id="login-container">
+            <img id="google-image" src="../images/google.png">
+            <div id="login-title">로그인</div>
+            <div id="move-youtube">Youtube로 이동</div>
+        </header>
+        <section>
+            <div class="section-item">
+                <input type="text" id="email-or-phone" placeholder="이메일 또는 휴대전화" />
+            </div>
+            <div class="section-item">
+                <div id="forget-email-q">이메일을 잊으셨나요?</div>
+            </div>
+            <div class="section-item">
+                <div id="guide">
+                    내 컴퓨터가 아닌가요? 게스트 모드를 사용하여 비공개로 로그인하세요.
+                    <span class="text-blue">게스트 모드 사용 방법 자세히 알아보기</span>
+                </div>
+            </div>
+            <div class="section-item" id="button-container">
+                <input type="button" id="sign-up-button" class="button" value="계정 만들기" />
+                <input type="button" id="next-button" class="button" value="다음" />
+            </div>
+        </section>
+
+        <footer>
+            <select>
+                <option>한국어</option>
+                <option>영어</option>
+            </select>
+            <div id="etc-container">
+                <div class="etc-item">도움말</div>
+                <div class="etc-item">개인정보처리방침</div>
+                <div class="etc-item">약관</div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
