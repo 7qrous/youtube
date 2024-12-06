@@ -38,6 +38,7 @@
     flex-wrap: wrap;
     gap: 1rem;
     height: auto;
+    margin-bottom: 2rem;
 
 }
 
@@ -69,6 +70,7 @@
 
 .video-title {
     width: 270px;
+    margin-left: 1rem;
     font-weight: 900;
 }
 
@@ -80,7 +82,7 @@
     width: auto;
     display: inline-block;
     height: 1rem;
-    bottom: 100px;
+    bottom: 90px;
     border-radius: 0.5rem;
     right: 1rem;
 }
@@ -102,13 +104,13 @@
 }
 
 .video-channel-name {
-    padding-left: 30px;
+    padding-left: 45px;
 }
 
 .video-hit-count-timestamp {
     display: flex;
     flex-direction: row;
-    padding-left: 30px;
+    padding-left: 45px;
 }
 
 .video-hit-count {}
