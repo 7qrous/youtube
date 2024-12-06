@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    box-sizing: content-box;
+    font-size: 12px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+nav {
+    border: 1px solid black;
+}
+
+main {
+    width: 100%;
+    float: right;
+    border: 1px solid black;
+    height: 100vh;
+}
+
+/**/
+header {
+    border: 1px solid black;
+}
+
+section {
+    border: 1px solid black;
+}
