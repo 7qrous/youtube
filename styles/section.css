@@ -4,28 +4,6 @@
     overflow-y: scroll;
 }
 
-#category-container {
-    height: 50px;
-}
-
-#category-list {
-    display: flex;
-    list-style-type: none;
-    flex-wrap: wrap;
-}
-
-.category-item {
-    font-size: 1rem;
-    margin: 0.5rem;
-    padding: 0.5rem;
-    background-color: lightgray;
-    border-radius: 0.25rem;
-}
-
-#category-all {
-    background-color: black;
-    color: white;
-}
 
 .video-container {
     height: auto;
