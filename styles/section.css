@@ -16,8 +16,8 @@
 
 .category-item {
     font-size: 1rem;
-    margin: 0.25rem;
-    padding: 0.25rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
     background-color: lightgray;
     border-radius: 0.25rem;
 }
@@ -25,4 +25,169 @@
 #category-all {
     background-color: black;
     color: white;
+}
+
+.video-container {
+    height: auto;
+}
+
+.video-list {
+    width: 100%;
+    height: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    height: auto;
+
+}
+
+.video-item {
+    width: 320px;
+    height: 280px;
+    position: relative;
+}
+
+.video-image {
+    width: 320px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+
+.video-top-info {
+    margin-top: 1rem;
+    display: flex;
+    width: 320px;
+}
+
+.video-channel-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+.video-title {
+    width: 270px;
+    font-weight: 900;
+}
+
+.video-time {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.65);
+    color: white;
+    padding: 0.5rem;
+    width: auto;
+    display: inline-block;
+    height: 1rem;
+    bottom: 100px;
+    border-radius: 0.5rem;
+    right: 1rem;
+}
+
+.video-point3 {
+    width: 15px;
+    height: 15px;
+    background-image: url('../images/point3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.video-bottom-info {
+    width: 300px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    color: gray;
+}
+
+.video-channel-name {
+    padding-left: 30px;
+}
+
+.video-hit-count-timestamp {
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+}
+
+.video-hit-count {}
+
+.video-timestamp {}
+
+
+
+
+.shorts-container {
+    margin-top: 2rem;
+    width: 100%;
+    height: auto;
+}
+
+#shorts-header {
+    width: 100%;
+    height: 32px;
+    display: flex;
+    align-items: center;
+}
+
+#shorts-icon {
+    width: 32px;
+    height: 32px;
+    background-image: url('../images/shorts_red.png');
+    background-size: cover;
+    background-position: center center;
+}
+
+#shorts-header-title {
+    width: 100px;
+    height: 32px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+
+#shorts-list {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    gap: 1rem;
+}
+
+.shorts-item {
+    height: 400px;
+    width: 220px;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.shorts-image {
+    height: 330px;
+    display: block;
+    width: 220px;
+    border-radius: 0.5rem;
+}
+
+.shorts-title-point3-container {
+    display: flex;
+    width: 220px;
+    height: 40px;
+    margin-top: 0.5rem;
+}
+
+.shorts-title {
+    width: 200px;
+    height: 32px;
+    font-weight: 900;
+}
+
+.shorts-point3 {
+    width: 12px;
+    height: 12px;
+    font-weight: 900;
+    background-image: url('../images/point3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }

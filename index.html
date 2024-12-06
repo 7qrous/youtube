@@ -1,23 +1,4 @@
-<!-- [1] : header : flex
-  > #logo 
-  > #search-container
-     > #speak-button
-  > #point3
-  > #login
-[2] : section (#category-list ) : flex
-   >  .category-item
-[3] : section ( #video-list ) : flex
-   >  .video-item
-      > .video-info-top (+)
-      > .video-info-bottom (+)
-[4] : section 
-  >  #shorts-header
-  >  #shorts-list
-       > .shorts-item (+)
-[5] : nav : flex (#menu-list:column )
-  > #line3.menu-item
-  > .menu-item
- -->
+
 <!DOCTYPE html>
 <html lang="ko">
 
@@ -74,11 +55,16 @@
                 <input type="button" id="search-speak" class="search-item" value="🎙" />
             </div>
             <div id="point3-login-container">
-                <div id="point3">
-                    
+                <div id="point3-icon">
+
                 </div>
                 <div id="login">
-                    로그인
+                    <div id="login-icon">
+
+                    </div>
+                    <div id="login-title">
+                        로그인
+                    </div>
                 </div>
             </div>
         </header>
@@ -97,8 +83,577 @@
                     <li class="category-item">새로운 맞춤 동영상</li>
                 </ul>
             </section>
-            <section id="video-container">video-list</section>
-            <section id="shorts-container">shorts-container</section>
+            <section class="video-container">
+                <article class="video-list">
+                    <div class="video-item">
+                        <div class="video-time">10:26:27</div>
+                        <img class="video-image"
+                            src="https://i.ytimg.com/vi/FMeEkvAdU0c/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDTPKSF56yEJZBgYX4xTZ9xRsTOdQ" />
+                        <div class="video-top-info">
+                            <img src="https://yt3.ggpht.com/7C7gf_M2SLHMxYY74vn7QPRJuGrc9Ul2ehvf6LXmHDeAVi4-dBiSOGB8bXhMeLz0GYvqzwbk=s68-c-k-c0x00ffffff-no-rj"
+                                class="video-channel-icon" />
+                            <div class="video-title">Playlist | 일이 술술 풀리는 재즈 플레이리스트 🎵 💚ㅣWork & Jazz</div>
+                            <div class="video-point3"></div>
+                        </div>
+                        <div class="video-bottom-info">
+                            <div class="video-channel-name">JazzNe</div>
+                            <div class="video-hit-count-timestamp">
+                                <div class="video-hit-count">
+                                    조회수 30만회
+                                </div>
+                                <div>&nbsp;·&nbsp;</div>
+                                <div class="video-timestamp">
+                                    2주 전
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-time">10:26:27</div>
+                        <img class="video-image"
+                            src="https://i.ytimg.com/vi/FMeEkvAdU0c/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDTPKSF56yEJZBgYX4xTZ9xRsTOdQ" />
+                        <div class="video-top-info">
+                            <img src="https://yt3.ggpht.com/7C7gf_M2SLHMxYY74vn7QPRJuGrc9Ul2ehvf6LXmHDeAVi4-dBiSOGB8bXhMeLz0GYvqzwbk=s68-c-k-c0x00ffffff-no-rj"
+                                class="video-channel-icon" />
+                            <div class="video-title">Playlist | 일이 술술 풀리는 재즈 플레이리스트 🎵 💚ㅣWork & Jazz</div>
+                            <div class="video-point3"></div>
+                        </div>
+                        <div class="video-bottom-info">
+                            <div class="video-channel-name">JazzNe</div>
+                            <div class="video-hit-count-timestamp">
+                                <div class="video-hit-count">
+                                    조회수 30만회
+                                </div>
+                                <div>&nbsp;·&nbsp;</div>
+                                <div class="video-timestamp">
+                                    2주 전
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-time">10:26:27</div>
+                        <img class="video-image"
+                            src="https://i.ytimg.com/vi/FMeEkvAdU0c/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDTPKSF56yEJZBgYX4xTZ9xRsTOdQ" />
+                        <div class="video-top-info">
+                            <img src="https://yt3.ggpht.com/7C7gf_M2SLHMxYY74vn7QPRJuGrc9Ul2ehvf6LXmHDeAVi4-dBiSOGB8bXhMeLz0GYvqzwbk=s68-c-k-c0x00ffffff-no-rj"
+                                class="video-channel-icon" />
+                            <div class="video-title">Playlist | 일이 술술 풀리는 재즈 플레이리스트 🎵 💚ㅣWork & Jazz</div>
+                            <div class="video-point3"></div>
+                        </div>
+                        <div class="video-bottom-info">
+                            <div class="video-channel-name">JazzNe</div>
+                            <div class="video-hit-count-timestamp">
+                                <div class="video-hit-count">
+                                    조회수 30만회
+                                </div>
+                                <div>&nbsp;·&nbsp;</div>
+                                <div class="video-timestamp">
+                                    2주 전
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-time">10:26:27</div>
+                        <img class="video-image"
+                            src="https://i.ytimg.com/vi/FMeEkvAdU0c/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDTPKSF56yEJZBgYX4xTZ9xRsTOdQ" />
+                        <div class="video-top-info">
+                            <img src="https://yt3.ggpht.com/7C7gf_M2SLHMxYY74vn7QPRJuGrc9Ul2ehvf6LXmHDeAVi4-dBiSOGB8bXhMeLz0GYvqzwbk=s68-c-k-c0x00ffffff-no-rj"
+                                class="video-channel-icon" />
+                            <div class="video-title">Playlist | 일이 술술 풀리는 재즈 플레이리스트 🎵 💚ㅣWork & Jazz</div>
+                            <div class="video-point3"></div>
+                        </div>
+                        <div class="video-bottom-info">
+                            <div class="video-channel-name">JazzNe</div>
+                            <div class="video-hit-count-timestamp">
+                                <div class="video-hit-count">
+                                    조회수 30만회
+                                </div>
+                                <div>&nbsp;·&nbsp;</div>
+                                <div class="video-timestamp">
+                                    2주 전
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-time">10:26:27</div>
+                        <img class="video-image"
+                            src="https://i.ytimg.com/vi/FMeEkvAdU0c/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDTPKSF56yEJZBgYX4xTZ9xRsTOdQ" />
+                        <div class="video-top-info">
+                            <img src="https://yt3.ggpht.com/7C7gf_M2SLHMxYY74vn7QPRJuGrc9Ul2ehvf6LXmHDeAVi4-dBiSOGB8bXhMeLz0GYvqzwbk=s68-c-k-c0x00ffffff-no-rj"
+                                class="video-channel-icon" />
+                            <div class="video-title">Playlist | 일이 술술 풀리는 재즈 플레이리스트 🎵 💚ㅣWork & Jazz</div>
+                            <div class="video-point3"></div>
+                        </div>
+                        <div class="video-bottom-info">
+                            <div class="video-channel-name">JazzNe</div>
+                            <div class="video-hit-count-timestamp">
+                                <div class="video-hit-count">
+                                    조회수 30만회
+                                </div>
+                                <div>&nbsp;·&nbsp;</div>
+                                <div class="video-timestamp">
+                                    2주 전
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="video-list">
+                    <div class="video-item">
+                        <div class="video-time">10:26:27</div>
+                        <img class="video-image"
+                            src="https://i.ytimg.com/vi/FMeEkvAdU0c/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDTPKSF56yEJZBgYX4xTZ9xRsTOdQ" />
+                        <div class="video-top-info">
+                            <img src="https://yt3.ggpht.com/7C7gf_M2SLHMxYY74vn7QPRJuGrc9Ul2ehvf6LXmHDeAVi4-dBiSOGB8bXhMeLz0GYvqzwbk=s68-c-k-c0x00ffffff-no-rj"
+                                class="video-channel-icon" />
+                            <div class="video-title">Playlist | 일이 술술 풀리는 재즈 플레이리스트 🎵 💚ㅣWork & Jazz</div>
+                            <div class="video-point3"></div>
+                        </div>
+                        <div class="video-bottom-info">
+                            <div class="video-channel-name">JazzNe</div>
+                            <div class="video-hit-count-timestamp">
+                                <div class="video-hit-count">
+                                    조회수 30만회
+                                </div>
+                                <div>&nbsp;·&nbsp;</div>
+                                <div class="video-timestamp">
+                                    2주 전
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-time">10:26:27</div>
+                        <img class="video-image"
+                            src="https://i.ytimg.com/vi/FMeEkvAdU0c/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDTPKSF56yEJZBgYX4xTZ9xRsTOdQ" />
+                        <div class="video-top-info">
+                            <img src="https://yt3.ggpht.com/7C7gf_M2SLHMxYY74vn7QPRJuGrc9Ul2ehvf6LXmHDeAVi4-dBiSOGB8bXhMeLz0GYvqzwbk=s68-c-k-c0x00ffffff-no-rj"
+                                class="video-channel-icon" />
+                            <div class="video-title">Playlist | 일이 술술 풀리는 재즈 플레이리스트 🎵 💚ㅣWork & Jazz</div>
+                            <div class="video-point3"></div>
+                        </div>
+                        <div class="video-bottom-info">
+                            <div class="video-channel-name">JazzNe</div>
+                            <div class="video-hit-count-timestamp">
+                                <div class="video-hit-count">
+                                    조회수 30만회
+                                </div>
+                                <div>&nbsp;·&nbsp;</div>
+                                <div class="video-timestamp">
+                                    2주 전
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-time">10:26:27</div>
+                        <img class="video-image"
+                            src="https://i.ytimg.com/vi/FMeEkvAdU0c/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDTPKSF56yEJZBgYX4xTZ9xRsTOdQ" />
+                        <div class="video-top-info">
+                            <img src="https://yt3.ggpht.com/7C7gf_M2SLHMxYY74vn7QPRJuGrc9Ul2ehvf6LXmHDeAVi4-dBiSOGB8bXhMeLz0GYvqzwbk=s68-c-k-c0x00ffffff-no-rj"
+                                class="video-channel-icon" />
+                            <div class="video-title">Playlist | 일이 술술 풀리는 재즈 플레이리스트 🎵 💚ㅣWork & Jazz</div>
+                            <div class="video-point3"></div>
+                        </div>
+                        <div class="video-bottom-info">
+                            <div class="video-channel-name">JazzNe</div>
+                            <div class="video-hit-count-timestamp">
+                                <div class="video-hit-count">
+                                    조회수 30만회
+                                </div>
+                                <div>&nbsp;·&nbsp;</div>
+                                <div class="video-timestamp">
+                                    2주 전
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-time">10:26:27</div>
+                        <img class="video-image"
+                            src="https://i.ytimg.com/vi/FMeEkvAdU0c/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDTPKSF56yEJZBgYX4xTZ9xRsTOdQ" />
+                        <div class="video-top-info">
+                            <img src="https://yt3.ggpht.com/7C7gf_M2SLHMxYY74vn7QPRJuGrc9Ul2ehvf6LXmHDeAVi4-dBiSOGB8bXhMeLz0GYvqzwbk=s68-c-k-c0x00ffffff-no-rj"
+                                class="video-channel-icon" />
+                            <div class="video-title">Playlist | 일이 술술 풀리는 재즈 플레이리스트 🎵 💚ㅣWork & Jazz</div>
+                            <div class="video-point3"></div>
+                        </div>
+                        <div class="video-bottom-info">
+                            <div class="video-channel-name">JazzNe</div>
+                            <div class="video-hit-count-timestamp">
+                                <div class="video-hit-count">
+                                    조회수 30만회
+                                </div>
+                                <div>&nbsp;·&nbsp;</div>
+                                <div class="video-timestamp">
+                                    2주 전
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-time">10:26:27</div>
+                        <img class="video-image"
+                            src="https://i.ytimg.com/vi/FMeEkvAdU0c/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDTPKSF56yEJZBgYX4xTZ9xRsTOdQ" />
+                        <div class="video-top-info">
+                            <img src="https://yt3.ggpht.com/7C7gf_M2SLHMxYY74vn7QPRJuGrc9Ul2ehvf6LXmHDeAVi4-dBiSOGB8bXhMeLz0GYvqzwbk=s68-c-k-c0x00ffffff-no-rj"
+                                class="video-channel-icon" />
+                            <div class="video-title">Playlist | 일이 술술 풀리는 재즈 플레이리스트 🎵 💚ㅣWork & Jazz</div>
+                            <div class="video-point3"></div>
+                        </div>
+                        <div class="video-bottom-info">
+                            <div class="video-channel-name">JazzNe</div>
+                            <div class="video-hit-count-timestamp">
+                                <div class="video-hit-count">
+                                    조회수 30만회
+                                </div>
+                                <div>&nbsp;·&nbsp;</div>
+                                <div class="video-timestamp">
+                                    2주 전
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section class="shorts-container">
+                <div id="shorts-header">
+                    <div id="shorts-icon"></div>
+                    <div id="shorts-header-title">Shorts</div>
+                </div>
+                <div id="shorts-list">
+                    <div class="shorts-item">
+                        <img class="shorts-image"
+                            src="https://i.ytimg.com/vi/FfjGzlFqX1s/oar2.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLASCXBfhPlCCbPfhZDDxskHh4DOgA" />
+                        <div class="shorts-title-point3-container">
+                            <div class="shorts-title">
+                                한방에 콘솔로그 입력하는 방법
+                            </div>
+                            <div class="shorts-point3">
+
+                            </div>
+                        </div>
+                        <div class="shorts-hit-count"></div>
+                    </div>
+                    <div class="shorts-item">
+                        <img class="shorts-image"
+                            src="https://i.ytimg.com/vi/FfjGzlFqX1s/oar2.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLASCXBfhPlCCbPfhZDDxskHh4DOgA" />
+                        <div class="shorts-title-point3-container">
+                            <div class="shorts-title">
+                                한방에 콘솔로그 입력하는 방법
+                            </div>
+                            <div class="shorts-point3">
+
+                            </div>
+                        </div>
+                        <div class="shorts-hit-count"></div>
+                    </div>
+                    <div class="shorts-item">
+                        <img class="shorts-image"
+                            src="https://i.ytimg.com/vi/FfjGzlFqX1s/oar2.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLASCXBfhPlCCbPfhZDDxskHh4DOgA" />
+                        <div class="shorts-title-point3-container">
+                            <div class="shorts-title">
+                                한방에 콘솔로그 입력하는 방법
+                            </div>
+                            <div class="shorts-point3">
+
+                            </div>
+                        </div>
+                        <div class="shorts-hit-count"></div>
+                    </div>
+                    <div class="shorts-item">
+                        <img class="shorts-image"
+                            src="https://i.ytimg.com/vi/FfjGzlFqX1s/oar2.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLASCXBfhPlCCbPfhZDDxskHh4DOgA" />
+                        <div class="shorts-title-point3-container">
+                            <div class="shorts-title">
+                                한방에 콘솔로그 입력하는 방법
+                            </div>
+                            <div class="shorts-point3">
+
+                            </div>
+                        </div>
+                        <div class="shorts-hit-count"></div>
+                    </div>
+                    <div class="shorts-item">
+                        <img class="shorts-image"
+                            src="https://i.ytimg.com/vi/FfjGzlFqX1s/oar2.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLASCXBfhPlCCbPfhZDDxskHh4DOgA" />
+                        <div class="shorts-title-point3-container">
+                            <div class="shorts-title">
+                                한방에 콘솔로그 입력하는 방법
+                            </div>
+                            <div class="shorts-point3">
+
+                            </div>
+                        </div>
+                        <div class="shorts-hit-count"></div>
+                    </div>
+                    <div class="shorts-item">
+                        <img class="shorts-image"
+                            src="https://i.ytimg.com/vi/FfjGzlFqX1s/oar2.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLASCXBfhPlCCbPfhZDDxskHh4DOgA" />
+                        <div class="shorts-title-point3-container">
+                            <div class="shorts-title">
+                                한방에 콘솔로그 입력하는 방법
+                            </div>
+                            <div class="shorts-point3">
+
+                            </div>
+                        </div>
+                        <div class="shorts-hit-count"></div>
+                    </div>
+                    <div class="shorts-item">
+                        <img class="shorts-image"
+                            src="https://i.ytimg.com/vi/FfjGzlFqX1s/oar2.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLASCXBfhPlCCbPfhZDDxskHh4DOgA" />
+                        <div class="shorts-title-point3-container">
+                            <div class="shorts-title">
+                                한방에 콘솔로그 입력하는 방법
+                            </div>
+                            <div class="shorts-point3">
+
+                            </div>
+                        </div>
+                        <div class="shorts-hit-count"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="video-container">
+                <article class="video-list">
+                    <div class="video-item">
+                        <div class="video-time">10:26:27</div>
+                        <img class="video-image"
+                            src="https://i.ytimg.com/vi/FMeEkvAdU0c/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDTPKSF56yEJZBgYX4xTZ9xRsTOdQ" />
+                        <div class="video-top-info">
+                            <img src="https://yt3.ggpht.com/7C7gf_M2SLHMxYY74vn7QPRJuGrc9Ul2ehvf6LXmHDeAVi4-dBiSOGB8bXhMeLz0GYvqzwbk=s68-c-k-c0x00ffffff-no-rj"
+                                class="video-channel-icon" />
+                            <div class="video-title">Playlist | 일이 술술 풀리는 재즈 플레이리스트 🎵 💚ㅣWork & Jazz</div>
+                            <div class="video-point3"></div>
+                        </div>
+                        <div class="video-bottom-info">
+                            <div class="video-channel-name">JazzNe</div>
+                            <div class="video-hit-count-timestamp">
+                                <div class="video-hit-count">
+                                    조회수 30만회
+                                </div>
+                                <div>&nbsp;·&nbsp;</div>
+                                <div class="video-timestamp">
+                                    2주 전
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-time">10:26:27</div>
+                        <img class="video-image"
+                            src="https://i.ytimg.com/vi/FMeEkvAdU0c/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDTPKSF56yEJZBgYX4xTZ9xRsTOdQ" />
+                        <div class="video-top-info">
+                            <img src="https://yt3.ggpht.com/7C7gf_M2SLHMxYY74vn7QPRJuGrc9Ul2ehvf6LXmHDeAVi4-dBiSOGB8bXhMeLz0GYvqzwbk=s68-c-k-c0x00ffffff-no-rj"
+                                class="video-channel-icon" />
+                            <div class="video-title">Playlist | 일이 술술 풀리는 재즈 플레이리스트 🎵 💚ㅣWork & Jazz</div>
+                            <div class="video-point3"></div>
+                        </div>
+                        <div class="video-bottom-info">
+                            <div class="video-channel-name">JazzNe</div>
+                            <div class="video-hit-count-timestamp">
+                                <div class="video-hit-count">
+                                    조회수 30만회
+                                </div>
+                                <div>&nbsp;·&nbsp;</div>
+                                <div class="video-timestamp">
+                                    2주 전
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-time">10:26:27</div>
+                        <img class="video-image"
+                            src="https://i.ytimg.com/vi/FMeEkvAdU0c/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDTPKSF56yEJZBgYX4xTZ9xRsTOdQ" />
+                        <div class="video-top-info">
+                            <img src="https://yt3.ggpht.com/7C7gf_M2SLHMxYY74vn7QPRJuGrc9Ul2ehvf6LXmHDeAVi4-dBiSOGB8bXhMeLz0GYvqzwbk=s68-c-k-c0x00ffffff-no-rj"
+                                class="video-channel-icon" />
+                            <div class="video-title">Playlist | 일이 술술 풀리는 재즈 플레이리스트 🎵 💚ㅣWork & Jazz</div>
+                            <div class="video-point3"></div>
+                        </div>
+                        <div class="video-bottom-info">
+                            <div class="video-channel-name">JazzNe</div>
+                            <div class="video-hit-count-timestamp">
+                                <div class="video-hit-count">
+                                    조회수 30만회
+                                </div>
+                                <div>&nbsp;·&nbsp;</div>
+                                <div class="video-timestamp">
+                                    2주 전
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-time">10:26:27</div>
+                        <img class="video-image"
+                            src="https://i.ytimg.com/vi/FMeEkvAdU0c/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDTPKSF56yEJZBgYX4xTZ9xRsTOdQ" />
+                        <div class="video-top-info">
+                            <img src="https://yt3.ggpht.com/7C7gf_M2SLHMxYY74vn7QPRJuGrc9Ul2ehvf6LXmHDeAVi4-dBiSOGB8bXhMeLz0GYvqzwbk=s68-c-k-c0x00ffffff-no-rj"
+                                class="video-channel-icon" />
+                            <div class="video-title">Playlist | 일이 술술 풀리는 재즈 플레이리스트 🎵 💚ㅣWork & Jazz</div>
+                            <div class="video-point3"></div>
+                        </div>
+                        <div class="video-bottom-info">
+                            <div class="video-channel-name">JazzNe</div>
+                            <div class="video-hit-count-timestamp">
+                                <div class="video-hit-count">
+                                    조회수 30만회
+                                </div>
+                                <div>&nbsp;·&nbsp;</div>
+                                <div class="video-timestamp">
+                                    2주 전
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-time">10:26:27</div>
+                        <img class="video-image"
+                            src="https://i.ytimg.com/vi/FMeEkvAdU0c/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDTPKSF56yEJZBgYX4xTZ9xRsTOdQ" />
+                        <div class="video-top-info">
+                            <img src="https://yt3.ggpht.com/7C7gf_M2SLHMxYY74vn7QPRJuGrc9Ul2ehvf6LXmHDeAVi4-dBiSOGB8bXhMeLz0GYvqzwbk=s68-c-k-c0x00ffffff-no-rj"
+                                class="video-channel-icon" />
+                            <div class="video-title">Playlist | 일이 술술 풀리는 재즈 플레이리스트 🎵 💚ㅣWork & Jazz</div>
+                            <div class="video-point3"></div>
+                        </div>
+                        <div class="video-bottom-info">
+                            <div class="video-channel-name">JazzNe</div>
+                            <div class="video-hit-count-timestamp">
+                                <div class="video-hit-count">
+                                    조회수 30만회
+                                </div>
+                                <div>&nbsp;·&nbsp;</div>
+                                <div class="video-timestamp">
+                                    2주 전
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="video-list">
+                    <div class="video-item">
+                        <div class="video-time">10:26:27</div>
+                        <img class="video-image"
+                            src="https://i.ytimg.com/vi/FMeEkvAdU0c/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDTPKSF56yEJZBgYX4xTZ9xRsTOdQ" />
+                        <div class="video-top-info">
+                            <img src="https://yt3.ggpht.com/7C7gf_M2SLHMxYY74vn7QPRJuGrc9Ul2ehvf6LXmHDeAVi4-dBiSOGB8bXhMeLz0GYvqzwbk=s68-c-k-c0x00ffffff-no-rj"
+                                class="video-channel-icon" />
+                            <div class="video-title">Playlist | 일이 술술 풀리는 재즈 플레이리스트 🎵 💚ㅣWork & Jazz</div>
+                            <div class="video-point3"></div>
+                        </div>
+                        <div class="video-bottom-info">
+                            <div class="video-channel-name">JazzNe</div>
+                            <div class="video-hit-count-timestamp">
+                                <div class="video-hit-count">
+                                    조회수 30만회
+                                </div>
+                                <div>&nbsp;·&nbsp;</div>
+                                <div class="video-timestamp">
+                                    2주 전
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-time">10:26:27</div>
+                        <img class="video-image"
+                            src="https://i.ytimg.com/vi/FMeEkvAdU0c/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDTPKSF56yEJZBgYX4xTZ9xRsTOdQ" />
+                        <div class="video-top-info">
+                            <img src="https://yt3.ggpht.com/7C7gf_M2SLHMxYY74vn7QPRJuGrc9Ul2ehvf6LXmHDeAVi4-dBiSOGB8bXhMeLz0GYvqzwbk=s68-c-k-c0x00ffffff-no-rj"
+                                class="video-channel-icon" />
+                            <div class="video-title">Playlist | 일이 술술 풀리는 재즈 플레이리스트 🎵 💚ㅣWork & Jazz</div>
+                            <div class="video-point3"></div>
+                        </div>
+                        <div class="video-bottom-info">
+                            <div class="video-channel-name">JazzNe</div>
+                            <div class="video-hit-count-timestamp">
+                                <div class="video-hit-count">
+                                    조회수 30만회
+                                </div>
+                                <div>&nbsp;·&nbsp;</div>
+                                <div class="video-timestamp">
+                                    2주 전
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-time">10:26:27</div>
+                        <img class="video-image"
+                            src="https://i.ytimg.com/vi/FMeEkvAdU0c/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDTPKSF56yEJZBgYX4xTZ9xRsTOdQ" />
+                        <div class="video-top-info">
+                            <img src="https://yt3.ggpht.com/7C7gf_M2SLHMxYY74vn7QPRJuGrc9Ul2ehvf6LXmHDeAVi4-dBiSOGB8bXhMeLz0GYvqzwbk=s68-c-k-c0x00ffffff-no-rj"
+                                class="video-channel-icon" />
+                            <div class="video-title">Playlist | 일이 술술 풀리는 재즈 플레이리스트 🎵 💚ㅣWork & Jazz</div>
+                            <div class="video-point3"></div>
+                        </div>
+                        <div class="video-bottom-info">
+                            <div class="video-channel-name">JazzNe</div>
+                            <div class="video-hit-count-timestamp">
+                                <div class="video-hit-count">
+                                    조회수 30만회
+                                </div>
+                                <div>&nbsp;·&nbsp;</div>
+                                <div class="video-timestamp">
+                                    2주 전
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-time">10:26:27</div>
+                        <img class="video-image"
+                            src="https://i.ytimg.com/vi/FMeEkvAdU0c/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDTPKSF56yEJZBgYX4xTZ9xRsTOdQ" />
+                        <div class="video-top-info">
+                            <img src="https://yt3.ggpht.com/7C7gf_M2SLHMxYY74vn7QPRJuGrc9Ul2ehvf6LXmHDeAVi4-dBiSOGB8bXhMeLz0GYvqzwbk=s68-c-k-c0x00ffffff-no-rj"
+                                class="video-channel-icon" />
+                            <div class="video-title">Playlist | 일이 술술 풀리는 재즈 플레이리스트 🎵 💚ㅣWork & Jazz</div>
+                            <div class="video-point3"></div>
+                        </div>
+                        <div class="video-bottom-info">
+                            <div class="video-channel-name">JazzNe</div>
+                            <div class="video-hit-count-timestamp">
+                                <div class="video-hit-count">
+                                    조회수 30만회
+                                </div>
+                                <div>&nbsp;·&nbsp;</div>
+                                <div class="video-timestamp">
+                                    2주 전
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-time">10:26:27</div>
+                        <img class="video-image"
+                            src="https://i.ytimg.com/vi/FMeEkvAdU0c/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDTPKSF56yEJZBgYX4xTZ9xRsTOdQ" />
+                        <div class="video-top-info">
+                            <img src="https://yt3.ggpht.com/7C7gf_M2SLHMxYY74vn7QPRJuGrc9Ul2ehvf6LXmHDeAVi4-dBiSOGB8bXhMeLz0GYvqzwbk=s68-c-k-c0x00ffffff-no-rj"
+                                class="video-channel-icon" />
+                            <div class="video-title">Playlist | 일이 술술 풀리는 재즈 플레이리스트 🎵 💚ㅣWork & Jazz</div>
+                            <div class="video-point3"></div>
+                        </div>
+                        <div class="video-bottom-info">
+                            <div class="video-channel-name">JazzNe</div>
+                            <div class="video-hit-count-timestamp">
+                                <div class="video-hit-count">
+                                    조회수 30만회
+                                </div>
+                                <div>&nbsp;·&nbsp;</div>
+                                <div class="video-timestamp">
+                                    2주 전
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
         </div>
     </main>
 </body>
