@@ -174,13 +174,13 @@
 
 .shorts-title-point3-container {
     display: flex;
-    width: 220px;
+    width: 240px;
     height: 40px;
     margin-top: 0.5rem;
 }
 
 .shorts-title {
-    width: 200px;
+    width: 210px;
     height: 32px;
     font-weight: 900;
 }
